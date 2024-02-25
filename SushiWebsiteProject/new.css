@@ -1,0 +1,186 @@
+body{
+    background-color: salmon;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    padding: 35px 7%;
+}
+.img1{
+    height: 120px;
+}
+button{
+    background-color: white;
+}
+.header1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 50px;
+    border-radius: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar1 a{
+    margin: 0 10px;
+    font-size: 16px;
+    color: black;
+}
+.navbar1 a:hover{
+    border-color: black;
+    border-bottom: 1px solid;
+}
+.navbar1 .active1{
+    border-color: black;
+    border-bottom: 1px solid;
+}
+.buttons button i{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.home{
+    min-height: 100vh;
+    background: url(image/lll.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -230px;
+    display: flex;
+    align-items: center;
+    
+}
+.content{
+    max-width: 600px;
+}
+.content h3{
+    font-size: 60px;
+}
+.content p{
+    font-size: 20px;
+    font-style: normal;
+}
+.btn{
+    margin-top: 1px;
+    display: inline-block;
+    padding: 20px 38px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+.boxContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px;
+}
+.box{
+    padding: 3px;
+    background-color: white;
+    border-radius: 30px;
+}
+.box img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    padding-left: 40px;
+}
+.price span{
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.ourMenu{
+    border-bottom: solid;
+}
+.row .imageAbout{
+    flex: 10px 10px 450px;
+}
+.imageAbout img{
+    width: 100%;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.customerContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 60px;
+    align-items: center;
+}
+.cus1,.cus2,.cus3{
+    padding: 3px;
+    background-color: white;
+    border-radius: 30px;
+}
+.denden{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    padding-left: 150px;
+    display: block;
+}
+.customerImage{
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.customerImage img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin: auto;
+    display: block;
+}
+.name{
+   font-size: 25px;
+   padding-left: 20%;
+   text-align: center;
+}
+.customer,.contactHead{
+    border-bottom: solid;
+}
+.contactForm{
+    background-color:black ;
+    width: 500px;
+    height: 300px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.contactForm i{
+color: white;
+width: 20px;
+padding-top: 20px;
+}
+.contactForm .one{
+    width: 290px;
+    height: 20px;
+}
+.contacButton{
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnsecond{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 20px 38px;
+    border-radius: 30px;
+    background-color: white;
+}
